@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>callback</title>
+</head>
+<body>
+@if (ViewBag.AuthorizationRequest != null){    
+        //@ViewBag.AuthorizationRequest
+        @ViewBag.FileName
+
+}
+else
+{
+    <div>
+        callback
+    </div>
+}
+</body>
+</html>
